@@ -1,0 +1,35 @@
+.container {
+  max-width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 2rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: aquamarine;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: aqua;
+  font-weight: bold;
+}
+
+.errorLabel {
+  color: red;
+  width: 100%;
+}
